@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<EditText  android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:numeric="signed"
+        android:id="@+id/changedata"/>
+<Button android:id="@+id/changesound"  
+    android:layout_width="fill_parent" android:text="变音"
+        android:layout_height="wrap_content"/>
+
+<Button android:id="@+id/changeplay"  android:text="播放变音"
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+<Button android:id="@+id/changerecording"  android:text="录音"
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/changeinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">点击[变声]按钮即可变声</string>
+    <string name="app_name">SoundTouchJni0.1</string>
+
+</resources>
